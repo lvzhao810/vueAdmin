@@ -71,7 +71,8 @@ const routes = [
 
 const router = new Router({
     routes,
-    mode: "hash"
+    mode: "hash",
+    base:"/dist"
 })
 
 export default router
